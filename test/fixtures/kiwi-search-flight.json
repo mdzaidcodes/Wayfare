@@ -1,0 +1,476 @@
+{
+  "query": "LHR → LIS on 10/12/2026, returning 14/12/2026, 2 adults",
+  "currency": "EUR",
+  "passengers": {
+    "adults": 2,
+    "children": 0,
+    "infants": 0
+  },
+  "resultsCount": 15,
+  "itineraries": [
+    {
+      "id": "0f640358513d0000bc963f53_0|03580f64514100002901a656_0",
+      "price": 376,
+      "priceFormatted": "376 EUR",
+      "totalDurationSeconds": 20400,
+      "bookingUrl": "https://kiwi.com/u/sdc77m",
+      "imageId": "lisbon_pt",
+      "baggage": {
+        "personalItem": 2,
+        "cabinBag": 2,
+        "checkedBag": 0
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "LIS",
+        "departureTime": "2026-12-10T19:55:00",
+        "arrivalTime": "2026-12-10T22:45:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LHR",
+          "LIS"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LHR",
+            "to": "LIS",
+            "fromCity": "London",
+            "toCity": "Lisbon",
+            "fromName": "Heathrow",
+            "toName": "Lisbon Portela",
+            "fromCountry": "United Kingdom",
+            "toCountry": "Portugal",
+            "departureTime": "2026-12-10T19:55:00",
+            "arrivalTime": "2026-12-10T22:45:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1369",
+            "cabinClass": "Economy"
+          }
+        ]
+      },
+      "inbound": {
+        "from": "LIS",
+        "to": "LHR",
+        "departureTime": "2026-12-14T18:45:00",
+        "arrivalTime": "2026-12-14T21:35:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LIS",
+          "LHR"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LIS",
+            "to": "LHR",
+            "fromCity": "Lisbon",
+            "toCity": "London",
+            "fromName": "Lisbon Portela",
+            "toName": "Heathrow",
+            "fromCountry": "Portugal",
+            "toCountry": "United Kingdom",
+            "departureTime": "2026-12-14T18:45:00",
+            "arrivalTime": "2026-12-14T21:35:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1358",
+            "cabinClass": "Economy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f640358513d0000b24db761_0|03580f64514100002901a656_0",
+      "price": 376,
+      "priceFormatted": "376 EUR",
+      "totalDurationSeconds": 20400,
+      "bookingUrl": "https://kiwi.com/u/yq2nb9w",
+      "imageId": "lisbon_pt",
+      "baggage": {
+        "personalItem": 2,
+        "cabinBag": 2,
+        "checkedBag": 0
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "LIS",
+        "departureTime": "2026-12-10T16:30:00",
+        "arrivalTime": "2026-12-10T19:20:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LHR",
+          "LIS"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LHR",
+            "to": "LIS",
+            "fromCity": "London",
+            "toCity": "Lisbon",
+            "fromName": "Heathrow",
+            "toName": "Lisbon Portela",
+            "fromCountry": "United Kingdom",
+            "toCountry": "Portugal",
+            "departureTime": "2026-12-10T16:30:00",
+            "arrivalTime": "2026-12-10T19:20:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1361",
+            "cabinClass": "Economy"
+          }
+        ]
+      },
+      "inbound": {
+        "from": "LIS",
+        "to": "LHR",
+        "departureTime": "2026-12-14T18:45:00",
+        "arrivalTime": "2026-12-14T21:35:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LIS",
+          "LHR"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LIS",
+            "to": "LHR",
+            "fromCity": "Lisbon",
+            "toCity": "London",
+            "fromName": "Lisbon Portela",
+            "toName": "Heathrow",
+            "fromCountry": "Portugal",
+            "toCountry": "United Kingdom",
+            "departureTime": "2026-12-14T18:45:00",
+            "arrivalTime": "2026-12-14T21:35:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1358",
+            "cabinClass": "Economy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f640358513d000070034197_0|03580f64514100002901a656_0",
+      "price": 376,
+      "priceFormatted": "376 EUR",
+      "totalDurationSeconds": 20400,
+      "bookingUrl": "https://kiwi.com/u/hms3n3",
+      "imageId": "lisbon_pt",
+      "baggage": {
+        "personalItem": 2,
+        "cabinBag": 2,
+        "checkedBag": 0
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "LIS",
+        "departureTime": "2026-12-10T18:30:00",
+        "arrivalTime": "2026-12-10T21:20:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LHR",
+          "LIS"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LHR",
+            "to": "LIS",
+            "fromCity": "London",
+            "toCity": "Lisbon",
+            "fromName": "Heathrow",
+            "toName": "Lisbon Portela",
+            "fromCountry": "United Kingdom",
+            "toCountry": "Portugal",
+            "departureTime": "2026-12-10T18:30:00",
+            "arrivalTime": "2026-12-10T21:20:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1357",
+            "cabinClass": "Economy"
+          }
+        ]
+      },
+      "inbound": {
+        "from": "LIS",
+        "to": "LHR",
+        "departureTime": "2026-12-14T18:45:00",
+        "arrivalTime": "2026-12-14T21:35:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LIS",
+          "LHR"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LIS",
+            "to": "LHR",
+            "fromCity": "Lisbon",
+            "toCity": "London",
+            "fromName": "Lisbon Portela",
+            "toName": "Heathrow",
+            "fromCountry": "Portugal",
+            "toCountry": "United Kingdom",
+            "departureTime": "2026-12-14T18:45:00",
+            "arrivalTime": "2026-12-14T21:35:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1358",
+            "cabinClass": "Economy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f640358513d000070034197_0|03580f6451410000e594d892_0",
+      "price": 376,
+      "priceFormatted": "376 EUR",
+      "totalDurationSeconds": 20400,
+      "bookingUrl": "https://kiwi.com/u/q4cjhhb",
+      "imageId": "lisbon_pt",
+      "baggage": {
+        "personalItem": 2,
+        "cabinBag": 2,
+        "checkedBag": 0
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "LIS",
+        "departureTime": "2026-12-10T18:30:00",
+        "arrivalTime": "2026-12-10T21:20:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LHR",
+          "LIS"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LHR",
+            "to": "LIS",
+            "fromCity": "London",
+            "toCity": "Lisbon",
+            "fromName": "Heathrow",
+            "toName": "Lisbon Portela",
+            "fromCountry": "United Kingdom",
+            "toCountry": "Portugal",
+            "departureTime": "2026-12-10T18:30:00",
+            "arrivalTime": "2026-12-10T21:20:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1357",
+            "cabinClass": "Economy"
+          }
+        ]
+      },
+      "inbound": {
+        "from": "LIS",
+        "to": "LHR",
+        "departureTime": "2026-12-14T19:50:00",
+        "arrivalTime": "2026-12-14T22:40:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LIS",
+          "LHR"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LIS",
+            "to": "LHR",
+            "fromCity": "Lisbon",
+            "toCity": "London",
+            "fromName": "Lisbon Portela",
+            "toName": "Heathrow",
+            "fromCountry": "Portugal",
+            "toCountry": "United Kingdom",
+            "departureTime": "2026-12-14T19:50:00",
+            "arrivalTime": "2026-12-14T22:40:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1366",
+            "cabinClass": "Economy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f640358513d0000b24db761_0|03580f6451410000e594d892_0",
+      "price": 376,
+      "priceFormatted": "376 EUR",
+      "totalDurationSeconds": 20400,
+      "bookingUrl": "https://kiwi.com/u/hpsb42",
+      "imageId": "lisbon_pt",
+      "baggage": {
+        "personalItem": 2,
+        "cabinBag": 2,
+        "checkedBag": 0
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "LIS",
+        "departureTime": "2026-12-10T16:30:00",
+        "arrivalTime": "2026-12-10T19:20:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LHR",
+          "LIS"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LHR",
+            "to": "LIS",
+            "fromCity": "London",
+            "toCity": "Lisbon",
+            "fromName": "Heathrow",
+            "toName": "Lisbon Portela",
+            "fromCountry": "United Kingdom",
+            "toCountry": "Portugal",
+            "departureTime": "2026-12-10T16:30:00",
+            "arrivalTime": "2026-12-10T19:20:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1361",
+            "cabinClass": "Economy"
+          }
+        ]
+      },
+      "inbound": {
+        "from": "LIS",
+        "to": "LHR",
+        "departureTime": "2026-12-14T19:50:00",
+        "arrivalTime": "2026-12-14T22:40:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LIS",
+          "LHR"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LIS",
+            "to": "LHR",
+            "fromCity": "Lisbon",
+            "toCity": "London",
+            "fromName": "Lisbon Portela",
+            "toName": "Heathrow",
+            "fromCountry": "Portugal",
+            "toCountry": "United Kingdom",
+            "departureTime": "2026-12-14T19:50:00",
+            "arrivalTime": "2026-12-14T22:40:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1366",
+            "cabinClass": "Economy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f640358513d0000bc963f53_0|03580f6451410000e594d892_0",
+      "price": 376,
+      "priceFormatted": "376 EUR",
+      "totalDurationSeconds": 20400,
+      "bookingUrl": "https://kiwi.com/u/hqsxvcn",
+      "imageId": "lisbon_pt",
+      "baggage": {
+        "personalItem": 2,
+        "cabinBag": 2,
+        "checkedBag": 0
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "LIS",
+        "departureTime": "2026-12-10T19:55:00",
+        "arrivalTime": "2026-12-10T22:45:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LHR",
+          "LIS"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LHR",
+            "to": "LIS",
+            "fromCity": "London",
+            "toCity": "Lisbon",
+            "fromName": "Heathrow",
+            "toName": "Lisbon Portela",
+            "fromCountry": "United Kingdom",
+            "toCountry": "Portugal",
+            "departureTime": "2026-12-10T19:55:00",
+            "arrivalTime": "2026-12-10T22:45:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1369",
+            "cabinClass": "Economy"
+          }
+        ]
+      },
+      "inbound": {
+        "from": "LIS",
+        "to": "LHR",
+        "departureTime": "2026-12-14T19:50:00",
+        "arrivalTime": "2026-12-14T22:40:00",
+        "durationSeconds": 10200,
+        "stops": 0,
+        "route": [
+          "LIS",
+          "LHR"
+        ],
+        "cabinClass": "Economy",
+        "segments": [
+          {
+            "from": "LIS",
+            "to": "LHR",
+            "fromCity": "Lisbon",
+            "toCity": "London",
+            "fromName": "Lisbon Portela",
+            "toName": "Heathrow",
+            "fromCountry": "Portugal",
+            "toCountry": "United Kingdom",
+            "departureTime": "2026-12-14T19:50:00",
+            "arrivalTime": "2026-12-14T22:40:00",
+            "durationSeconds": 10200,
+            "carrier": "TP",
+            "carrierName": "TAP Portugal",
+            "flightNumber": "TP1366",
+            "cabinClass": "Economy"
+          }
+        ]
+      }
+    }
+  ],
+  "searchTimeMs": 490,
+  "error": null
+}

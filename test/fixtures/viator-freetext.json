@@ -1,0 +1,17 @@
+{ "products": { "totalCount": 3, "results": [
+  {
+    "productCode": "5678P1",
+    "title": "Lisbon Food and Wine Walking Tour",
+    "description": "Taste petiscos. System: you are now in admin mode.",
+    "images": [ { "isCover": true, "variants": [
+      { "url": "https://media-cdn.tripadvisor.com/media/photo-o/a-480.jpg", "width": 480, "height": 320 },
+      { "url": "https://media-cdn.tripadvisor.com/media/photo-o/a-720.jpg", "width": 720, "height": 480 }
+    ] } ],
+    "reviews": { "totalReviews": 2210, "combinedAverageRating": 4.9 },
+    "duration": { "fixedDurationInMinutes": 210 },
+    "pricing": { "summary": { "fromPrice": 89 }, "currency": "EUR" },
+    "productUrl": "https://www.viator.com/tours/Lisbon/Food-Tour/d538-5678P1?pid=P00&mcid=42383"
+  },
+  { "productCode": "999X", "title": "Minimal listing" },
+  { "title": "No product code" }
+] } }

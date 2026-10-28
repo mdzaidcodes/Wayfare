@@ -1,0 +1,26 @@
+[
+  {
+    "price": 376,
+    "currency": "EUR",
+    "airline": "TAP Air Portugal",
+    "flightNumbers": ["TP 1369"],
+    "departAt": "2026-12-10T19:55",
+    "returnOptions": [
+      { "price": 420, "flightNumbers": ["TP1360"] },
+      { "price": 376, "flightNumbers": ["TP1358"] }
+    ],
+    "bookingOptions": [
+      { "seller": "TAP Air Portugal", "price": 376, "fareName": "Discount", "bookingUrl": "https://www.google.com/travel/clk/tap" },
+      { "seller": "Trip.com", "price": "€361", "deepLink": "https://www.google.com/travel/clk/trip" },
+      { "seller": "eDreams", "price": 359 },
+      { "seller": "Bad link", "price": 300, "bookingUrl": "javascript:alert(1)" }
+    ]
+  },
+  {
+    "price": 250,
+    "currency": "EUR",
+    "flightNumbers": ["FR8341"],
+    "returnOptions": [{ "price": 250, "flightNumbers": ["FR8342"] }],
+    "bookingOptions": [{ "seller": "Ryanair", "price": 250 }]
+  }
+]

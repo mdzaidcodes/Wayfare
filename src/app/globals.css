@@ -1,0 +1,219 @@
+@import "tailwindcss";
+
+/* Wayfare design tokens. Light is warm paper with a lagoon accent; dark is deep ink with a brighter lagoon. */
+:root {
+  --bg: #f5f2ec;
+  --bg-glow-1: rgba(18, 163, 154, 0.14);
+  --bg-glow-2: rgba(232, 131, 58, 0.1);
+  --surface: #ffffff;
+  --surface-2: #f3f0ea;
+  --surface-3: #ebe7df;
+  --ink: #12171b;
+  --muted: #69727a;
+  --line: rgba(18, 23, 27, 0.08);
+  --line-strong: rgba(18, 23, 27, 0.14);
+  --accent: #0b7a75;
+  --accent-2: #14a89e;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(11, 122, 117, 0.09);
+  --sun: #e2783a;
+  --sun-soft: rgba(226, 120, 58, 0.12);
+  --warn: #9a5b00;
+  --warn-soft: #fbf1df;
+  --danger: #c0352b;
+  --danger-soft: #fdecea;
+  --ok: #1f7a4f;
+  --ok-soft: #e4f4eb;
+  --demo: #7b2cbf;
+  --elev-sm: 0 1px 2px rgba(18, 23, 27, 0.05), 0 1px 1px rgba(18, 23, 27, 0.03);
+  --elev-card: 0 1px 2px rgba(18, 23, 27, 0.04), 0 6px 24px -8px rgba(18, 23, 27, 0.1);
+  --elev-pop: 0 2px 6px rgba(18, 23, 27, 0.06), 0 24px 48px -16px rgba(18, 23, 27, 0.22);
+  --elev-glow: 0 8px 24px -8px rgba(11, 122, 117, 0.55);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0d10;
+    --bg-glow-1: rgba(60, 207, 192, 0.1);
+    --bg-glow-2: rgba(226, 120, 58, 0.06);
+    --surface: #12171c;
+    --surface-2: #192026;
+    --surface-3: #212a31;
+    --ink: #edf0f2;
+    --muted: #96a1aa;
+    --line: rgba(255, 255, 255, 0.07);
+    --line-strong: rgba(255, 255, 255, 0.13);
+    --accent: #3ccfc0;
+    --accent-2: #2aa8c9;
+    --accent-ink: #03211f;
+    --accent-soft: rgba(60, 207, 192, 0.12);
+    --sun: #f39a5d;
+    --sun-soft: rgba(243, 154, 93, 0.14);
+    --warn: #f0b860;
+    --warn-soft: rgba(240, 184, 96, 0.12);
+    --danger: #f28b82;
+    --danger-soft: rgba(242, 139, 130, 0.12);
+    --ok: #7fd1a3;
+    --ok-soft: rgba(127, 209, 163, 0.12);
+    --elev-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --elev-card: 0 1px 2px rgba(0, 0, 0, 0.35), 0 8px 28px -10px rgba(0, 0, 0, 0.6);
+    --elev-pop: 0 2px 6px rgba(0, 0, 0, 0.4), 0 28px 56px -16px rgba(0, 0, 0, 0.75);
+    --elev-glow: 0 8px 28px -8px rgba(60, 207, 192, 0.45);
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-sun: var(--sun);
+  --color-sun-soft: var(--sun-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-demo: var(--demo);
+  --shadow-sm: var(--elev-sm);
+  --shadow-card: var(--elev-card);
+  --shadow-pop: var(--elev-pop);
+  --shadow-glow: var(--elev-glow);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-fraunces);
+  --animate-shimmer: shimmer 1.6s linear infinite;
+  --animate-float: float 14s ease-in-out infinite;
+  --animate-float-slow: float 22s ease-in-out infinite reverse;
+  --animate-pulse-ring: pulse-ring 1.6s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  33% {
+    transform: translate3d(4%, -6%, 0) scale(1.06);
+  }
+  66% {
+    transform: translate3d(-5%, 4%, 0) scale(0.96);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 var(--accent-soft);
+  }
+  70% {
+    box-shadow: 0 0 0 8px transparent;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-feature-settings: "cv11", "ss01";
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Soft ambient light behind the app. */
+.ambient {
+  background:
+    radial-gradient(60rem 40rem at 85% -10%, var(--bg-glow-1), transparent 60%),
+    radial-gradient(50rem 36rem at -10% 110%, var(--bg-glow-2), transparent 60%),
+    var(--bg);
+}
+
+.glass {
+  background: color-mix(in oklab, var(--surface) 82%, transparent);
+  backdrop-filter: saturate(1.6) blur(16px);
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, var(--accent), var(--accent-2) 55%, var(--sun));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-accent-gradient {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+
+.shimmer-line {
+  background: linear-gradient(90deg, transparent, var(--accent), var(--accent-2), transparent);
+  background-size: 200% 100%;
+  animation: var(--animate-shimmer);
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2), var(--surface-3), var(--surface-2));
+  background-size: 200% 100%;
+  animation: var(--animate-shimmer);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--accent-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.scroll-snap-x {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-snap-x > * {
+  scroll-snap-align: start;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.thin-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}

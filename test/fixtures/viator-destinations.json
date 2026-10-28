@@ -1,0 +1,5 @@
+{ "destinations": [
+  { "destinationId": 538, "name": "Lisbon", "type": "CITY", "timeZone": "Europe/Lisbon", "center": { "latitude": 38.7223, "longitude": -9.1393 } },
+  { "destinationId": 26879, "name": "Lisbon District", "type": "REGION" },
+  { "destinationId": 684, "name": "Las Vegas", "type": "CITY" }
+] }

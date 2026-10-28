@@ -1,0 +1,24 @@
+{ "places": [
+  {
+    "id": "ChIJbelem",
+    "displayName": { "text": "Belém Tower", "languageCode": "en" },
+    "formattedAddress": "Av. Brasília, 1400-038 Lisboa, Portugal",
+    "location": { "latitude": 38.6916, "longitude": -9.216 },
+    "types": ["tourist_attraction", "museum"],
+    "rating": 4.6,
+    "userRatingCount": 98000,
+    "googleMapsUri": "https://maps.google.com/?cid=1",
+    "regularOpeningHours": { "periods": [
+      { "open": { "day": 2, "hour": 10, "minute": 0 }, "close": { "day": 2, "hour": 17, "minute": 30 } },
+      { "open": { "day": 3, "hour": 10, "minute": 0 }, "close": { "day": 3, "hour": 17, "minute": 30 } }
+    ] },
+    "photos": [ { "name": "places/ChIJbelem/photos/AaBbCc", "widthPx": 4000, "heightPx": 3000, "authorAttributions": [ { "displayName": "Ana R." } ] } ]
+  },
+  {
+    "id": "ChIJmiradouro",
+    "displayName": { "text": "Miradouro da Senhora do Monte" },
+    "location": { "latitude": 38.7192, "longitude": -9.1325 },
+    "regularOpeningHours": { "periods": [ { "open": { "day": 0, "hour": 0, "minute": 0 } } ] }
+  },
+  { "id": "ChIJnoname" }
+] }
